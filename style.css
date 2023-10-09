@@ -1,0 +1,121 @@
+.button.is-primary {
+    background-color: orange;
+}
+
+.button.is-primary:hover {
+    background-color: rgb(255, 166, 0);
+    opacity: 0.8;
+}
+
+a:hover {
+    color: rgb(255, 166, 0);
+
+}
+
+.back svg {
+    color: orange;
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    bottom: 25px;
+    right: 15px;
+}
+
+.hero.is-gray {
+    background-color: #eee;
+}
+
+.button {
+    border-radius: 20px;
+}
+
+.mt-7 {
+    margin-top: 6rem !important;
+}
+
+section h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+section p {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+
+section .subtitle-first {
+    position: relative;
+}
+
+section .subtitle-first::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 2px;
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    margin-left: -40px;
+    background-color: orange;
+    margin-bottom: 30px;
+}
+
+.card {
+    padding: 30px;
+}
+
+.card .card-header.is-shadowless {
+    box-shadow: none;
+}
+
+.card-image .image.is-centered {
+    margin: auto;
+    padding-top: 15px;
+}
+
+.card-footer {
+    border: none;
+    padding-bottom: 5px;
+}
+
+.card-footer .button {
+    margin: auto;
+}
+
+.fab {
+    transition: 500ms;
+}
+
+.great:hover .fab {
+    color: orange;
+    transform: translateY(-10px);
+
+}
+
+.artical {
+    background-color: #eee;
+    padding-top: 100px;
+}
+
+.comments {
+    background: #eee url(https://source.unsplash.com/g30P1zcOzXo/1600x900) no-repeat;
+    background-size: cover;
+}
+
+.comment {
+    border-radius: 20px;
+}
+
+.countiner {
+    background-color: white;
+}
+
+a {
+    color: rgb(184, 183, 183);
+}
+
+footer svg:hover path {
+    fill: orange;
+}
